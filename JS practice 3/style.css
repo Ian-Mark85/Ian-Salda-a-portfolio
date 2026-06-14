@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.counterForm{
+    margin: auto;
+    height: 60%;
+    width: 40%;
+    border: 5px solid white;
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?cs=srgb&dl=pexels-francesco-ungaro-396547.jpg&fm=jpg);
+    border-radius: 5px;
+}
+.myh2{
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+}
+.myParagraph{
+    margin-top: 20px;
+    color: white;
+    font-size: 9em;
+}
+.myButton{
+    color: black;
+    height: 40px;
+    width: 105px;
+    margin-right: 10px;
+    font-size: 1.5em;
+    font-family: "Playfair Display", serif;
+}
+#saveBtn{
+    margin-top: 5px;
+    background-color: rgb(19, 77, 143);
+    color: white;
+    transition: 0.5s;
+}
+#incBtn{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+#resetBtn{
+    background-color: rgb(160, 160, 52);
+    color: white;
+    transition: 0.5s;
+}
+#decBtn{
+    background-color: rgb(156, 25, 25);
+    color: white;
+    transition: 0.5s;
+}
+#incBtn:hover{
+    background-color: rgb(27, 231, 27);
+}
+#resetBtn:hover{
+    background-color: rgb(211, 211, 51);
+}
+#decBtn:hover{
+    background-color: rgb(230, 25, 25);
+}
+#saveBtn:hover{
+    background-color: rgb(9, 111, 226);
+}
+.myParagraph2{
+    margin-top: 15px;
+    margin-right: 20%;
+    color: white;
+    font-size: 2em;
+}

@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+.paragraph{
+    margin: 0;
+    font-family: Verdana;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.login-container{
+    width: 385px;
+    margin: 25px auto;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+input{
+    display: block;
+    width: 92%;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    margin-top: 15px;
+}
+.btn-login{
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    padding: 15px 0px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #1877f2;
+    cursor: pointer;
+}
+.forgot{
+    margin: 15px 0;
+    display: block;
+    font-family: Arial;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+hr{
+    margin: 25px 0px;
+    opacity: 0.3;
+}
+.btn-create{
+    display: block;
+    margin: 15px auto;
+    padding:15px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #42b72a;
+    cursor: pointer;
+}
+.belowtext{
+    font-family: Arial;
+    font-size: 14px;
+}
+.create-page{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.create-page:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 200px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+        margin: 0 15px;
+    }
+
+    .login-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn-login, .btn-create {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .forgot {
+        font-size: 10px;
+    }
+
+    .below-text {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 150px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    input {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .btn-login, .btn-create {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .forgot, .below-text {
+        font-size: 10px;
+    }
+}
+
+
+

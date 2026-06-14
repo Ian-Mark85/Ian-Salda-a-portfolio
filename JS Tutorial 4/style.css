@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://images.template.net/wp-content/uploads/2022/10/Blue-Backgrounds-Ideas-and-Examples.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gameForm{
+    margin: auto;
+    height: 60%;
+    width: 40%;
+    border: 5px solid grey;
+    text-align: center;
+    border-radius: 10px;
+}
+#myH2{
+    color: black;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.inputForm{
+    margin: auto;
+    height: 60%;
+    width: 70%;
+    margin-top: 20px;
+    font-family: "PT Serif", serif;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+.myLabel{
+    font-size: 1.5em;
+}
+.myInput{
+    width: 30%;
+    height: 35px;
+    font-family: "PT Serif", serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.actualForm{
+    margin-top: 20px;
+}
+.mySubmit{
+    margin-top: 10px;
+    width: 25%;
+    height: 30px;
+    font-family: "PT Serif", serif;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(44, 185, 44);
+}
+.myH3{
+    margin-top: 10px;
+}
